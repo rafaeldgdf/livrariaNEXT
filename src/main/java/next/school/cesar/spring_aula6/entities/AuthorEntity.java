@@ -31,7 +31,7 @@ public class AuthorEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 
-	@Idreq_8d296ac44f2647dfaff9f7697874b0a9
+	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private UUID id;// dfsr-23fb-23gd-32fa = 2
 	// PUT: localhost:8080/users/dfsr-23fb-23gd-32fa
